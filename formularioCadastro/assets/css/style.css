@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #6733ac, #351461);
+}
+
+.container {
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.479);
+}
+
+.form-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #461A81;
+}
+
+.form-image img {
+    width: 80%;
+}
+
+.form{
+    width: 110%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #7D3ECF;
+    justify-content: center;
+    padding: 5rem;
+    background-color: white;
+}
+
+.form-header{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{
+    border: none;
+    background-color: #7D3ECF;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #461A81;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+}
+
+.continue-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue-button button{
+    border: none;
+    background-color: #7D3ECF;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.continue-button button:hover {
+    background-color: #461A81;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #461A81;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+.gender-group {
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: center;    
+}
+
+.genderMale {
+    padding: 20px;
+}
+.genderFemale {
+    padding: 20px;
+}
+
+.genderNone {
+    padding: 20px;
+}
+
+.genderOthers {
+    padding: 20px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px;
+}
+
+.input-box input:hover {
+    background-color: rgba(243, 243, 243, 0.404);
+}
